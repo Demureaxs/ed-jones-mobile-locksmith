@@ -79,7 +79,7 @@ export function DemoHome() {
           <div className='flex-1 relative group'>
             <div className='absolute -inset-4 bg-(--brand-orange)/10 rounded-3xl -z-10 group-hover:bg-(--brand-orange)/20 transition-all ease-in-out duration-500' />
             <Image
-              src='https://www.banham.co.uk/media/wysiwyg/lock-repair-body.png'
+              src='https://allprolocksmiths.com.au/wp-content/uploads/2023/12/A-Reliable-Auto-Locksmith.jpg'
               alt='Professional Lock Repair and Installation in Cardiff'
               height={800}
               width={800}
@@ -388,7 +388,7 @@ export function ServicesIndex({ services }: { services?: ServicePage[] }) {
       {/* Short Hero */}
       <div className='relative rounded-2xl overflow-hidden mx-3 sm:mx-4 mt-3 sm:mt-4 h-[40vh] min-h-[350px] max-h-[450px] mb-12 sm:mb-16'>
         <Image
-          src='https://www.lockout247.co.uk/wp-content/uploads/2025/03/Reliable-Locksmith-Essex-scaled.jpeg'
+          src='https://big-c-locksmith.co.uk/wp-content/uploads/auto-locksmith-scaled.jpg'
           alt='Our Comprehensive Locksmith Services in Cardiff'
           fill
           priority
@@ -496,7 +496,7 @@ export function ServiceDetail({ service }: { service?: ServicePage }) {
       {/* Short Hero */}
       <div className='relative rounded-2xl overflow-hidden mx-3 sm:mx-4 mt-3 sm:mt-4 h-[40vh] min-h-[350px] max-h-[450px] mb-8'>
         <Image
-          src='https://www.lockout247.co.uk/wp-content/uploads/2025/03/Reliable-Locksmith-Essex-scaled.jpeg'
+          src='https://big-c-locksmith.co.uk/wp-content/uploads/auto-locksmith-scaled.jpg'
           alt={`${service.title} by ${config.businessName} in ${config.location}`}
           fill
           priority
@@ -684,7 +684,7 @@ export function BlogIndex({ posts }: { posts?: BlogPostType[] }) {
       {/* Short Hero */}
       <div className='relative rounded-2xl overflow-hidden mx-3 sm:mx-4 mt-3 sm:mt-4 h-[40vh] min-h-[350px] max-h-[450px] mb-12 sm:mb-16'>
         <Image
-          src='https://www.lockout247.co.uk/wp-content/uploads/2025/03/Reliable-Locksmith-Essex-scaled.jpeg'
+          src='https://big-c-locksmith.co.uk/wp-content/uploads/auto-locksmith-scaled.jpg'
           alt={`Security Advice & News for ${config.location}`}
           fill
           priority
@@ -730,7 +730,7 @@ export function BlogPost({ post }: { post?: BlogPostType }) {
       {/* Short Hero */}
       <div className='relative rounded-2xl overflow-hidden mx-3 sm:mx-4 mt-3 sm:mt-4 h-[40vh] min-h-[350px] max-h-[450px] mb-12 sm:mb-16'>
         <Image
-          src='https://www.lockout247.co.uk/wp-content/uploads/2025/03/Reliable-Locksmith-Essex-scaled.jpeg'
+          src='https://big-c-locksmith.co.uk/wp-content/uploads/auto-locksmith-scaled.jpg'
           alt={`${post.title} - Security insights by ${config.businessName} in ${config.location}`}
           fill
           priority
