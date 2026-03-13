@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import { Figtree } from 'next/font/google';
 import './globals.css';
 import config from '@/data/config.json';
+import { Analytics } from '@vercel/analytics/next';
 
 const figtree = Figtree({ subsets: ['latin'], variable: '--font-sans' });
 
@@ -95,7 +96,10 @@ export default function RootLayout({
       <head>
         <script type='application/ld+json' dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
       </head>
-      <body className={`${figtree.variable} font-sans antialiased min-h-screen bg-background`}>{children}</body>
+      <body className={`${figtree.variable} font-sans antialiased min-h-screen bg-background`}>
+        {children}
+        <Analytics />
+      </body>
     </html>
   );
 }
