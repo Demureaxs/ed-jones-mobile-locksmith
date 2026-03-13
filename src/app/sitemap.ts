@@ -2,7 +2,7 @@ import { MetadataRoute } from 'next';
 import config from '@/data/config.json';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = config.url || 'https://ejml.co.uk';
+  const baseUrl = config.url || 'https://ed-jones-mobile-locksmith-cardiff.co.uk';
 
   // Base routes
   const routes = ['', '/services', '/blog'].map((route) => ({
