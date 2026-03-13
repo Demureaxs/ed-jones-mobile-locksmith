@@ -45,7 +45,7 @@ export function BaseShell({ children }: BaseShellProps) {
       </div>
 
       {/* ── Default Header / Navigation (Absolute top underneath the banner) */}
-      <div className='absolute top-11 left-0 w-full z-50 px-6 pt-6 sm:pt-10 pb-6 pointer-events-none'>
+      <div className='absolute top-11 left-0 w-full z-50 px-2 sm:px-6 pt-6 sm:pt-10 pb-6 pointer-events-none'>
         <header className='container mx-auto max-w-7xl flex h-16 items-center justify-between px-4 md:px-6 pointer-events-auto'>
           <div className='flex-1 flex items-center justify-between gap-4 pr-8'>
             {/* Logo */}
@@ -57,7 +57,7 @@ export function BaseShell({ children }: BaseShellProps) {
                   alt={`${businessName} - Expert Locksmiths in Cardiff`}
                   width={400}
                   height={400}
-                  className='h-40 -ml-6 w-auto object-cover'
+                  className='h-40 sm:-ml-6 w-auto object-cover'
                   priority
                 />
               </Link>
@@ -78,7 +78,7 @@ export function BaseShell({ children }: BaseShellProps) {
           </div>
 
           {/* CTA Button */}
-          <div className='flex hidden md:block items-center gap-3'>
+          <div className='flex block items-center gap-3'>
             <Link href={`tel:${phone}`}>
               <button className='cursor-pointer group inline-flex items-center gap-3 bg-white border border-transparent hover:border-white rounded-full pl-5 pr-1.5 py-1.5 text-sm font-bold text-gray-900 transition-all ease-in-out duration-500 shadow-xl'>
                 CONTACT US
