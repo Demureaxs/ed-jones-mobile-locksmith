@@ -7,7 +7,7 @@ import { Analytics } from '@vercel/analytics/next';
 const figtree = Figtree({ subsets: ['latin'], variable: '--font-sans' });
 
 export const metadata: Metadata = {
-  metadataBase: new URL(config.url || 'https://ejml.co.uk'),
+  metadataBase: new URL(config.url || 'https://ed-jones-mobile-locksmith-cardiff.co.uk'),
   title: {
     default: `${config.businessName} | Expert Auto Locksmith in ${config.location}`,
     template: `%s | ${config.businessName}`,
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: `${config.businessName} | Expert Auto Locksmith in ${config.location}`,
     description: `Professional 24/7 auto locksmith services in ${config.location}. Car key replacement, module coding, and key remapping.`,
-    url: config.url || 'https://ejml.co.uk',
+    url: config.url || 'https://ed-jones-mobile-locksmith-cardiff.co.uk',
     siteName: config.businessName,
     images: [
       {
