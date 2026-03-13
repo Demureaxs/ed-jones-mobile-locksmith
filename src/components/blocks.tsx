@@ -6,7 +6,7 @@ import config from '@/data/config.json';
 import { Container } from '@/components/ui/Container';
 import { TestimonialCard } from '@/components/ui/TestimonialCard';
 import Image from 'next/image';
-import { Phone, Siren, Award, Clock, ShieldCheck, Key, CheckCircle2, Star, Wrench, Home, Car, Shield, CheckCircle } from 'lucide-react';
+import { Phone, Siren, Award, Clock, ShieldCheck, Key, CheckCircle2, Star, Wrench, Home, Car, Shield, CheckCircle, Cpu, Gauge } from 'lucide-react';
 
 export function DemoHome() {
   return (
@@ -15,8 +15,9 @@ export function DemoHome() {
       <div className='relative rounded-2xl overflow-hidden mx-3 sm:mx-4 md:mx-6 mt-3 sm:mt-4 md:mt-6 h-[calc(100dvh-2rem)] min-h-150 md:min-h-175'>
         {/* Background Image */}
         <Image
-          src='https://www.lockout247.co.uk/wp-content/uploads/2025/03/Reliable-Locksmith-Essex-scaled.jpeg'
-          alt={`${config.businessName || 'Locksmith'} - Professional Lock Repair in Brighton`}
+          // src='https://www.lockout247.co.uk/wp-content/uploads/2025/03/Reliable-Locksmith-Essex-scaled.jpeg'
+          src='https://big-c-locksmith.co.uk/wp-content/uploads/auto-locksmith-scaled.jpg'
+          alt={`${config.businessName || 'Locksmith'} - Professional Lock Repair in Cardiff`}
           fill
           priority
           className='object-cover'
@@ -33,8 +34,8 @@ export function DemoHome() {
                 <span className='w-2 h-2 rounded-full bg-(--brand-orange) animate-pulse' />
                 Local & Trusted Experts
               </div>
-              <h1 className='text-white text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight leading-[1.1]'>
-                Expert Locksmith
+              <h1 className='text-white text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight leading-[1.1]'>
+                Auto Locksmith {config.location}
                 <br />
                 <span className='text-(--brand-orange)'>
                   {config.businessName
@@ -42,13 +43,13 @@ export function DemoHome() {
                         .split(' ')
                         .map((word: string) => word[0].toUpperCase() + word.slice(1))
                         .join(' ')
-                    : 'Security'}
+                    : 'Experts'}
                 </span>
               </h1>
 
               <p className='mt-6 sm:mt-8 text-gray-300 text-base sm:text-lg md:text-xl lg:w-3/4 border-l-2 border-(--brand-orange) pl-4 sm:pl-6 py-1 leading-relaxed shadow-sm'>
-                Locked out? Need a security upgrade? We deliver rapid, damage-free entry and professional lock fitting across the region. Available
-                24/7 for all your residential and commercial security needs.
+                Locked out of your vehicle? Need advanced module coding or key remapping? We deliver rapid, damage-free auto entry and professional
+                programming across Cardiff. Available 24/7 for all your vehicle security needs.
               </p>
 
               <div className='mt-8 sm:mt-10 flex flex-col sm:flex-row items-start sm:items-center gap-4'>
@@ -79,7 +80,7 @@ export function DemoHome() {
             <div className='absolute -inset-4 bg-(--brand-orange)/10 rounded-3xl -z-10 group-hover:bg-(--brand-orange)/20 transition-all ease-in-out duration-500' />
             <Image
               src='https://www.banham.co.uk/media/wysiwyg/lock-repair-body.png'
-              alt='Professional Lock Repair and Installation in Brighton'
+              alt='Professional Lock Repair and Installation in Cardiff'
               height={800}
               width={800}
               className='w-full h-full rounded-2xl shadow-2xl object-cover'
@@ -101,8 +102,8 @@ export function DemoHome() {
               </div>
 
               <h2 className='text-3xl sm:text-4xl lg:text-5xl text-gray-900 font-bold leading-tight tracking-tight'>
-                Emergency Locksmith & <br className='hidden sm:block' />
-                <span className='text-transparent bg-clip-text bg-linear-to-r from-gray-900 to-gray-500'>Security Solutions in Brighton</span>
+                Emergency Auto Locksmith{' '}
+                <span className='text-transparent bg-clip-text bg-linear-to-r from-gray-900 to-gray-500'>in {config.location}</span>
               </h2>
 
               <div className='space-y-4 text-gray-600 text-base sm:text-lg leading-relaxed'>
@@ -213,7 +214,9 @@ export function DemoHome() {
               <span className='h-0.5 w-8 bg-(--brand-orange) rounded-full'></span>
               <span className='text-(--brand-orange) font-bold tracking-widest uppercase text-sm'>What We Do</span>
             </div>
-            <h2 className='text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 tracking-tight'>Professional Locksmith Services in Brighton</h2>
+            <h2 className='text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 tracking-tight'>
+              Professional Auto Locksmith Services in {config.location}
+            </h2>
           </div>
           <Link
             href={`/services`}
@@ -233,10 +236,10 @@ export function DemoHome() {
               <div className='inline-flex px-3 py-1 bg-white/10 text-white rounded-full text-xs sm:text-sm font-semibold mb-4 sm:mb-6 backdrop-blur-md'>
                 Priority Service
               </div>
-              <h3 className='text-2xl sm:text-3xl lg:text-4xl font-bold mb-4'>Emergency 24/7 Lockout</h3>
+              <h3 className='text-2xl sm:text-3xl lg:text-4xl font-bold mb-4'>Emergency 24/7 Auto Lockout</h3>
               <p className='text-gray-400 text-base sm:text-lg max-w-md mb-8 sm:mb-10 leading-relaxed'>
-                Locked out of your home or vehicle? Our rapid-response team is on standby 24 hours a day to provide non-destructive entry and get you
-                back inside safely.
+                Locked out of your vehicle? Our rapid-response team is on standby 24 hours a day across the region to provide non-destructive entry
+                and get you back behind the wheel safely.
               </p>
               <Link href={`tel:${config.phone || ''}`} className='block sm:inline-block'>
                 <button className='cursor-pointer w-full sm:w-auto bg-(--brand-orange) hover:bg-white hover:text-gray-900 text-white font-bold py-3 px-8 rounded-full transition-all ease-in-out duration-500'>
@@ -249,47 +252,19 @@ export function DemoHome() {
           {/* Regular service cards */}
           {[
             {
-              id: 'lock-replacement',
-              tag: 'Home Security',
-              title: 'Lock Replacement & Upgrades',
-              desc: 'Anti-snap cylinder locks and deadbolts installed to British Standards.',
-              icon: Wrench,
+              id: 'module-coding',
+              tag: 'Programming',
+              title: 'Module Coding & Cloning',
+              desc: 'Advanced auto vehicle module coding, ECU programming, and unit cloning services.',
+              icon: Cpu,
             },
-            // {
-            //   id: 'upvc-repairs',
-            //   tag: 'Specialist',
-            //   title: 'UPVC Door & Window Locks',
-            //   desc: 'Repair and replacement of faulty multipoint UPVC locking mechanisms.',
-            //   icon: Home,
-            // },
-            // {
-            //   id: 'commercial-security',
-            //   tag: 'Business',
-            //   title: 'Commercial Access Control',
-            //   desc: 'Master key systems, digital locks, and high-security installations.',
-            //   icon: Award,
-            // },
-            // {
-            //   id: 'key-cutting',
-            //   tag: 'In-Store/Mobile',
-            //   title: 'Mobile Key Cutting',
-            //   desc: 'Precision key duplication on-site for mortice and cylinder keys.',
-            //   icon: Key,
-            // },
-            // {
-            //   id: 'auto-locksmith',
-            //   tag: 'Vehicle',
-            //   title: 'Auto Locksmith Services',
-            //   desc: 'Vehicle entry, transponder key programming, and broken key extraction.',
-            //   icon: Car,
-            // },
-            // {
-            //   id: 'burglary-repairs',
-            //   tag: 'Emergency',
-            //   title: 'Burglary Repairs & Boarding',
-            //   desc: 'Immediate post-break-in securing, boarding up, and lock replacement.',
-            //   icon: Shield,
-            // },
+            {
+              id: 'remapping',
+              tag: 'Programming',
+              title: 'Vehicle Key Remapping',
+              desc: 'Professional key remapping and programming for improved vehicle security.',
+              icon: Gauge,
+            },
           ].map((srv, idx) => (
             <Link
               key={idx}
@@ -352,7 +327,7 @@ export function DemoHome() {
               <div className='absolute -inset-4 bg-(--dark-bg) rounded-3xl -z-10 transform rotate-3' />
               <Image
                 src='https://www.banham.co.uk/media/catalog/category/locksmith_scams_header.jpg'
-                alt='Trusted Locksmith in Brighton'
+                alt='Trusted Locksmith in Cardiff'
                 height={600}
                 width={600}
                 className='w-full rounded-2xl shadow-xl'
@@ -365,9 +340,7 @@ export function DemoHome() {
       {/* ── 6. Testimonials ────────────────────────────────────────── */}
       <section className='bg-gray-50'>
         <div className='max-w-7xl mx-auto px-4 md:px-6 text-center'>
-          <h2 className='text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-8 sm:mb-12 md:mb-16 tracking-tight'>
-            What Our Brighton Clients Say
-          </h2>
+          <h2 className='text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-8 sm:mb-12 md:mb-16 tracking-tight'>What Our Clients Say</h2>
 
           <div className='grid md:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8 text-left'>
             {(config.testimonials || []).slice(0, 8).map((review, i) => (
@@ -386,9 +359,10 @@ export function DemoHome() {
 
           <div className='relative z-10 max-w-2xl mx-auto'>
             <ShieldCheck className='w-12 h-12 sm:w-16 sm:h-16 text-white mx-auto mb-4 sm:mb-6' />
-            <h2 className='text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-4 sm:mb-6'>Ready To Secure Your Brighton Property?</h2>
+            <h2 className='text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-4 sm:mb-6'>Ready To Secure Your Vehicle?</h2>
             <p className='text-white/90 text-lg sm:text-xl font-medium mb-8 sm:mb-10'>
-              Don&apos;t leave your security to chance. Get a free, no-obligation quote or request immediate emergency assistance today.
+              Don&apos;t leave your vehicle security and performance to chance. Get a free, no-obligation quote or request immediate emergency
+              assistance today.
             </p>
 
             <div className='flex flex-col sm:flex-row justify-center gap-4'>
@@ -415,7 +389,7 @@ export function ServicesIndex({ services }: { services?: ServicePage[] }) {
       <div className='relative rounded-2xl overflow-hidden mx-3 sm:mx-4 mt-3 sm:mt-4 h-[40vh] min-h-[350px] max-h-[450px] mb-12 sm:mb-16'>
         <Image
           src='https://www.lockout247.co.uk/wp-content/uploads/2025/03/Reliable-Locksmith-Essex-scaled.jpeg'
-          alt='Our Comprehensive Locksmith Services in Brighton'
+          alt='Our Comprehensive Locksmith Services in Cardiff'
           fill
           priority
           className='object-cover'
@@ -423,11 +397,11 @@ export function ServicesIndex({ services }: { services?: ServicePage[] }) {
         <div className='absolute inset-0 bg-black/75 z-10' />
         <div className='absolute inset-0 z-30 container mx-auto max-w-7xl flex flex-col justify-end pb-8 sm:pb-12 px-4 md:px-6'>
           <h1 className='text-white text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight'>
-            Comprehensive Security Solutions in Brighton
+            Comprehensive Auto Locksmith Solutions in {config.location}
           </h1>
           <p className='text-gray-300 mt-4 text-base sm:text-lg md:text-xl max-w-2xl border-l-2 border-(--brand-orange) pl-4'>
-            From emergency lockouts to enterprise-grade access control, our certified specialists are equipped to handle any situation with speed and
-            precision.
+            From emergency auto lockouts to module programming and key remapping, our certified specialists are equipped to handle any vehicle with
+            speed and precision.
           </p>
         </div>
       </div>
@@ -460,7 +434,9 @@ export function ServicesIndex({ services }: { services?: ServicePage[] }) {
       <section className='bg-white py-24'>
         <Container>
           <div className='text-center max-w-3xl mx-auto mb-16'>
-            <h2 className='text-3xl md:text-4xl font-bold text-gray-900 mb-6'>Why Partner With {config.businessName} in Brighton?</h2>
+            <h2 className='text-3xl md:text-4xl font-bold text-gray-900 mb-6'>
+              Why Partner With {config.businessName} in {config.location}?
+            </h2>
             <p className='text-gray-500 text-lg'>
               We don&apos;t just fix locks; we provide peace of mind through certified expertise and transparent practices.
             </p>
@@ -521,7 +497,7 @@ export function ServiceDetail({ service }: { service?: ServicePage }) {
       <div className='relative rounded-2xl overflow-hidden mx-3 sm:mx-4 mt-3 sm:mt-4 h-[40vh] min-h-[350px] max-h-[450px] mb-8'>
         <Image
           src='https://www.lockout247.co.uk/wp-content/uploads/2025/03/Reliable-Locksmith-Essex-scaled.jpeg'
-          alt={`${service.title} by ${config.businessName} in Brighton`}
+          alt={`${service.title} by ${config.businessName} in ${config.location}`}
           fill
           priority
           className='object-cover'
@@ -543,7 +519,7 @@ export function ServiceDetail({ service }: { service?: ServicePage }) {
         </div>
       </div>
 
-      <Container className='pt-8 -mt-16 pb-20'>
+      <Container className='pt-8 pb-20'>
         <div className='grid lg:grid-cols-3 gap-12 lg:gap-16'>
           {/* Main Content Column */}
           <div className='lg:col-span-2'>
@@ -566,7 +542,9 @@ export function ServiceDetail({ service }: { service?: ServicePage }) {
 
             {/* Our Process section */}
             <div className='mb-16'>
-              <h2 className='text-3xl font-bold text-gray-900 mb-8'>How We Handle {service.title} in Brighton</h2>
+              <h2 className='text-3xl font-bold text-gray-900 mb-8'>
+                How We Handle {service.title} in {config.location}
+              </h2>
               <div className='space-y-6'>
                 {[
                   {
@@ -707,14 +685,16 @@ export function BlogIndex({ posts }: { posts?: BlogPostType[] }) {
       <div className='relative rounded-2xl overflow-hidden mx-3 sm:mx-4 mt-3 sm:mt-4 h-[40vh] min-h-[350px] max-h-[450px] mb-12 sm:mb-16'>
         <Image
           src='https://www.lockout247.co.uk/wp-content/uploads/2025/03/Reliable-Locksmith-Essex-scaled.jpeg'
-          alt='Security Advice & News for Brighton Residents'
+          alt={`Security Advice & News for ${config.location}`}
           fill
           priority
           className='object-cover'
         />
         <div className='absolute inset-0 bg-black/75 z-10' />
         <div className='absolute inset-0 z-30 container mx-auto max-w-7xl flex flex-col justify-end pb-8 sm:pb-12 px-4 md:px-6'>
-          <h1 className='text-white text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight'>Security Advice & News for Brighton</h1>
+          <h1 className='text-white text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight'>
+            Security Advice & News for {config.location}
+          </h1>
           <p className='text-gray-300 mt-4 text-base sm:text-lg md:text-xl max-w-2xl border-l-2 border-(--brand-orange) pl-4'>
             Expert tips, updates, and guides to keep your property safe.
           </p>
@@ -751,7 +731,7 @@ export function BlogPost({ post }: { post?: BlogPostType }) {
       <div className='relative rounded-2xl overflow-hidden mx-3 sm:mx-4 mt-3 sm:mt-4 h-[40vh] min-h-[350px] max-h-[450px] mb-12 sm:mb-16'>
         <Image
           src='https://www.lockout247.co.uk/wp-content/uploads/2025/03/Reliable-Locksmith-Essex-scaled.jpeg'
-          alt={`${post.title} - Security insights by ${config.businessName} in Brighton`}
+          alt={`${post.title} - Security insights by ${config.businessName} in ${config.location}`}
           fill
           priority
           className='object-cover'

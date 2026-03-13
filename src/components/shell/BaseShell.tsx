@@ -53,11 +53,11 @@ export function BaseShell({ children }: BaseShellProps) {
               {/* <div className='absolute top-9 left-0 w-[142px] h-16 bg-white rounded-2xl -z-10 shadow-lg'></div> */}
               <Link href='/' className='flex items-center p-1.5 rounded-xl shadow-lg z-10 transition-all ease-in-out duration-500 hover:scale-[1.02]'>
                 <Image
-                  src='/btn-locksmith-logo.png'
-                  alt={`${businessName} - Expert Locksmiths in Brighton`}
+                  src='/ejml-logo.png'
+                  alt={`${businessName} - Expert Locksmiths in Cardiff`}
                   width={400}
                   height={400}
-                  className='h-24 -ml-3 w-auto object-cover'
+                  className='h-40 -ml-6 w-auto object-cover'
                   priority
                 />
               </Link>
@@ -109,11 +109,11 @@ export function BaseShell({ children }: BaseShellProps) {
                     className='relative flex items-center p-1.5 rounded-xl shadow-lg z-20 transition-all ease-in-out duration-500 hover:scale-[1.02]'
                   >
                     <Image
-                      src='/btn-locksmith-logo.png'
-                      alt={`${businessName} in Brighton`}
+                      src='/ejml-logo.png'
+                      alt={`${businessName} in Cardiff`}
                       width={400}
                       height={400}
-                      className='h-32 -ml-4 w-auto object-cover'
+                      className='h-40 -ml-8 w-auto object-cover'
                       priority
                     />
                   </Link>

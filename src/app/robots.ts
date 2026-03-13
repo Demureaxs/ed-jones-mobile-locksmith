@@ -2,7 +2,7 @@ import { MetadataRoute } from 'next';
 import config from '@/data/config.json';
 
 export default function robots(): MetadataRoute.Robots {
-  const baseUrl = config.url || 'https://btn-locksmith-brighton.co.uk';
+  const baseUrl = config.url || 'https://ejml.co.uk';
 
   return {
     rules: {

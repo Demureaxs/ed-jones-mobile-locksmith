@@ -1,18 +1,88 @@
 {
-  "businessName": "BTN Locksmith",
-  "industry": "locksmiths",
-  "phone": "+44 7817 550737",
-  "email": "contact@btn-locksmith-brighton.co.uk",
-  "url": "https://btn-locksmith-brighton.co.uk",
-  "address": "Essex Place, Kemptown, Brighton and Hove, Brighton BN2 1LB",
+  "businessName": "Ed Jones Mobile Locksmith",
+  "industry": "auto locksmiths",
+  "phone": "+44 7964 367644",
+  "email": "ed@ejml.co.uk",
+  "url": "https://ejml.co.uk",
+  "address": "45 Heolddu Rd, Bargoed CF81 8SW",
   "geo": {
-    "latitude": "50.8199818",
-    "longitude": "-0.1244585"
+    "latitude": "51.6917",
+    "longitude": "-3.2289"
   },
-  "location": "Brighton",
-  "addressLocality": "Kemptown, Brighton and Hove",
+  "location": "Cardiff",
+  "addressLocality": "Cardiff",
   "openingHours": "Mo-Su 00:00-23:59",
+  "socials": {
+    "facebook": "https://www.facebook.com/ejmllocksmith",
+    "google": "https://share.google/3ETjlbF4WvkAjxffL",
+    "tiktok": "https://www.tiktok.com/@edthelocksmith",
+    "youtube": "https://www.youtube.com/@edlocksmith"
+  },
   "services": [
+    {
+      "id": "auto-locksmith",
+      "tag": "Vehicle",
+      "title": "Auto Locksmith Services",
+      "summary": "Expert auto locksmithing, vehicle entry, and transponder key programming across Cardiff.",
+      "htmlContent": "<h1>Rapid Auto Locksmithing in Cardiff</h1><p>Losing your car keys, locking them inside the vehicle, or breaking a key in the ignition can ruin your entire day.</p><p>Our specialist auto locksmith team provides emergency roadside assistance to get you back behind the wheel quickly and safely across Cardiff.</p><h3>Damage-Free Vehicle Entry</h3><p>Using specialized Lishi decoders and varying techniques, we can pick the door locks of 95%+ of modern cars, vans, and trucks.</p><p>We do this without leaving a single scratch on the paintwork or damaging the door seals.</p><p>We entirely bypass the costly and damaging \"wedge and rod\" methods used by some recovery services.</p><h3>Key Replacement & Programming</h3><p>Modern vehicle keys are complex transponders that communicate with your car's immobilizer.</p><p>If you have lost all your keys, we can:</p><ul><li>Decode your door lock to cut a physical emergency blade</li><li>Connect to the vehicle's OBD port to extract the necessary PIN codes</li><li>Program a brand new transponder fob to your vehicle and delete the old lost keys from the ECU</li></ul><p>All of this is done on the side of the road.</p><p>This saves you the exorbitant cost and hassle of towing your car to the main dealer.</p><br /><p>Need immediate roadside help?</p><p><a href=\"tel:07964367644\" class=\"text-[--brand-orange] hover:underline font-bold\">Get an auto expert on the way.</a></p>",
+      "iconName": "Car"
+    },
+    {
+      "id": "module-coding",
+      "tag": "Programming",
+      "title": "Module Coding & Cloning",
+      "summary": "Advanced auto vehicle module coding, ECU programming, and unit cloning services.",
+      "htmlContent": "<h1>Specialist Vehicle Module Coding & Cloning in Cardiff</h1><p>Modern vehicles rely heavily on complex electronic modules to control everything from the engine to the central locking.</p><p>When these modules fail, replacing them often requires advanced programming and coding to ensure they communicate correctly with the rest of the vehicle's systems.</p><h3>ECU & Module Cloning</h3><p>If your engine control unit (ECU) or another vital module has suffered water damage or electronic failure, we can often clone the original data.</p><p>We extract the software and immobilizer data from your broken module and write it precisely onto a replacement unit.</p><p>This means the new module is entirely plug-and-play, saving you the massive expense of a main dealer replacement and coding session.</p><h3>Advanced Programming</h3><ul><li><strong>New Module Adaptation:</strong> Coding brand new virgin modules to your specific vehicle's VIN and immobilizer system.</li><li><strong>Immobilizer Defeat / Virginising:</strong> Resetting used modules so they can be adapted to a different vehicle.</li><li><strong>Feature Activation:</strong> Unlocking hidden features or adjusting parameters within the vehicle's software.</li></ul><p>For expert module coding and cloning across Cardiff, rely on Ed Jones Mobile Locksmith.</p><br /><p><a href=\"tel:07964367644\" class=\"text-[--brand-orange] hover:underline font-bold\">Contact us today with your vehicle details.</a></p>",
+      "iconName": "Cpu"
+    },
+    {
+      "id": "remapping",
+      "tag": "Programming",
+      "title": "Vehicle Key Remapping",
+      "summary": "Professional key remapping and immobilizer programming for improved vehicle security.",
+      "htmlContent": "<h1>Professional Vehicle Key Remapping in Cardiff</h1><p>Ensure your vehicle is secure with our custom key remapping and immobilizer services across Cardiff.</p><p>If you've bought a second-hand vehicle or lost a set of keys, it's crucial to ensure that old keys cannot be used to start your car.</p><p>We can adjust the software on your vehicle's immobilizer to erase old keys and map new ones to your system.</p><h3>Key Programming & Remapping</h3><p>Our key remapping service safely synchronizes your new transponder keys with your vehicle's ECU.</p><p>You will experience seamless entry and starting, with the complete peace of mind that no unauthorized keys will work.</p><p>This is the most critical upgrade for drivers looking to secure a newly purchased used vehicle.</p><h3>Immobilizer Solutions</h3><ul><li><strong>Lost Key Deletion:</strong> We securely erase any lost or stolen keys from your vehicle's memory.</li><li><strong>New Module Synchronization:</strong> If your immobilizer module has been replaced, we can remap it to communicate with the rest of your vehicle.</li><li><strong>Cost Savings:</strong> Our mobile key remapping service provides a dealership-level solution at a fraction of the cost, right at your doorstep.</li></ul><p>We provide fully mobile vehicle security and key remapping services across Cardiff.</p><br /><p><a href=\"tel:07964367644\" class=\"text-[--brand-orange] hover:underline font-bold\">Get a quote to remap your vehicle keys.</a></p>",
+      "iconName": "Gauge"
+    }
+  ],
+  "testimonials": [
+    {
+      "name": "Sean Brain",
+      "role": "Driver in Cardiff",
+      "quote": "Fantastic service. Called on a Saturday at 8:30am and ed arrived within the hour. Had my keys out of the car in under 10 minutes. Friendly, quick, and far cheaper than the other quotes I had. Highly recommended. Many thanks"
+    },
+    {
+      "name": "Ewan Blunt",
+      "role": "Vehicle Owner",
+      "quote": "quality service, got the job done straight away for a good price. Definitely Recommend."
+    },
+    {
+      "name": "James Davies",
+      "role": "Driver in Cardiff",
+      "quote": "What a fantastic service . Called out after someone attempted to steel my car. Arrived within 30 minutes and was able to restore my keys to the car so that I could Move it and secure the car. Very professional and amazing service would highly recommend."
+    },
+    {
+      "name": "amy p",
+      "role": "Cardiff Business",
+      "quote": "Brilliant service from Ed. He diverted from going home at the end of his day to help us when we were stuck, 2 recovery services tried and failed but Ed was able to get us moving again. I would 100% recommend Ed, his prices are very reasonable! Thank you again Ed!!"
+    }
+  ],
+  "blogPosts": [
+    {
+      "id": "what-to-do-when-you-lose-your-car-keys",
+      "title": "What To Do When You Lose Your Car Keys in Cardiff",
+      "excerpt": "Losing your vehicle keys is a panic-inducing moment. Follow these practical steps to regain access without paying exorbitant dealership prices.",
+      "publishedAt": "2024-04-05",
+      "htmlContent": "<h1>What To Do When You Lose Your Car Keys</h1><p>We've all been there: you reach into your pocket or bag to grab your car keys, and they simply aren't there. After the frantic retracing of steps, the reality sets in. You've lost your car keys. But before you call an expensive dealership in Cardiff and arrange a tow truck, take a deep breath.</p><h3>Step 1: Check Your Insurance and Breakdown Cover</h3><p>First, verify if your standard car insurance policy or your roadside breakdown cover involves \"key cover.\" Many modern policies include reimbursement provisions if you need an auto locksmith to cut you a new key. Do not break a window—this will cost you massively in repairs and is entirely unnecessary.</p><h3>Step 2: Gather Your Vehicle Information</h3><p>When you contact a professional, you need to provide specific information so they can guarantee they have the correct diagnostic equipment and blank transponders. Have the following ready:</p><ul><li>The Make, Model, and Year of the vehicle</li><li>The Vehicle Registration Number (License Plate)</li><li>The Vehicle Identification Number (VIN) – usually visible on the dashboard through the windshield</li><li>Proof of ownership (V5C logbook or insurance documents)</li></ul><h3>Step 3: Call an Auto Locksmith, Not the Main Dealer</h3><p>If you call a main dealership, you will inevitably have to pay to get the car towed to their garage. Furthermore, you will often wait days or even weeks for replacement keys to be shipped from a manufacturer warehouse in Europe.</p><p>A professional <a href=\"../services/auto-locksmith\" class=\"text-[--brand-orange] hover:underline\">Auto Locksmith</a> operates from a mobile workshop. We drive to your location, pick the door locks damage-free, decode the mechanical cuts, provide a new physical key, and program the complex transponder directly to your vehicle's ECU on the roadside. The process usually takes less than an hour, and old, lost keys can be completely erased from the vehicle's memory so they can never be used to steal your car.</p>"
+    },
+    {
+      "id": "benefits-of-key-remapping",
+      "title": "The Hidden Benefits of Key Remapping for Your Vehicle",
+      "excerpt": "Discover how professional key remapping can secure your vehicle and protect you from stolen keys across Cardiff.",
+      "publishedAt": "2024-05-15",
+      "htmlContent": "<h1>The Hidden Benefits of Key Remapping for Your Vehicle</h1><p>Key remapping, often known as transponder programming, involves modifying the software on your vehicle's immobilizer to recognize only your current keys. But why is this so critical, and what benefits can key remapping offer drivers in Cardiff?</p><h3>Why Remap Your Keys?</h3><p>When buying a used vehicle, you can never be certain how many spare keys the previous owner had cut. A professional key remapper safely erases all old, lost, or unaccounted-for keys from your car's memory, ensuring that only the keys in your physical possession can start the engine.</p><h3>Increased Security and Peace of Mind</h3><p>The most immediate and noticeable benefit of a key remap is the significant increase in vehicle security. You will experience complete peace of mind knowing that if an old set of keys was lost or stolen, it is now utterly useless to a potential thief. This is especially beneficial for high-value vehicles.</p><h3>Dealership Level Service at Your Door</h3><p>Interestingly, key remapping isn't something that has to be done at an expensive main dealer. Auto locksmiths are equipped with the exact same diagnostic equipment and dealer-level software. This means the engine immobilizer can be recoded right on your driveway. For busy commuters across Cardiff, the resulting convenience can quickly offset the cost of the remap itself.</p><p>Interested in securing your car's true potential? Discover our <a href=\"../services/remapping\" class=\"text-[--brand-orange] hover:underline\">Vehicle Key Remapping</a> service today.</p>"
+    }
+  ],
+  "_backupServices": [
     {
       "id": "emergency-lockout",
       "tag": "Emergency",
@@ -28,52 +98,7 @@
       "summary": "High-security anti-snap locks and deadbolts installed to British Standards.",
       "htmlContent": "<h2>Upgrade Your Security with British Standard Locks</h2><p>Many homeowners are unaware that the locks securing their front and back doors run the risk of failing modern security standards.</p><p>\"Lock snapping\" is a common method used by intruders to break into homes with UPVC or composite doors in under 15 seconds.</p><p>Our <a href=\"./upvc-doors\" class=\"text-[--brand-orange] hover:underline\">UPVC Door specialists</a> can replace your vulnerable cylinders with high-security alternatives.</p><h3>Why Upgrade?</h3><p>A lock replacement is highly recommended when:</p><ul><li>You have just moved into a new property and don't know who has spare keys</li><li>Your current locks are sticking, jamming, or difficult to turn</li><li>You want to upgrade to Insurance-Approved BS3621 mortice deadlocks or TS007 3-Star cylinders</li><li>You have recently lost your keys or suspect a set has been stolen</li></ul><h3>Our Installation Standards</h3><p>Our locksmiths exclusively install trusted, high-security brands.</p><p>Every residential lock replacement is guaranteed to meet or exceed the requirements of standard home insurance policies.</p><p>By upgrading, we ensure that your property is protected against snapping, bumping, picking, and drilling.</p><br/><p>Ready to upgrade your home defense?</p><p>Reach out to schedule a <a href=\"tel:07000000000\" class=\"text-[--brand-orange] hover:underline font-bold\">free home security assessment</a>.</p>",
       "iconName": "Wrench"
-    }
-    
-  ],
-  "testimonials": [
-    {
-      "name": "Mike Everett.",
-      "role": "Homeowner",
-      "quote": "Just got into my flat (2 doors) Che was brilliant. Answered the call late on a Sunday and booked in an early time for early the next morning which suited me perfectly (he offered to come over there and then, which is even more impressive considering the day and time). Super friendly and excellent value for money. No damage to the lock at all, artfully done! I’ll definitely use BTN Locksmith next time, as I’ll no doubt end up getting locked out again in the near future. Thank you so much!"
     },
-    {
-      "name": "Lucy Salt.",
-      "role": "Local Resident",
-      "quote": "Brilliant service all round! The locksmith was helpful, reassuring, and professional. He was informative and understanding throughout the whole process and sorted out the issue within minutes! All at a decent price too. Definitely recommend this service, he’s the best !!!"
-    },
-    {
-      "name": "Marie Flores.",
-      "role": "Landlord",
-      "quote": "Locked myself out late at night and he was a lifesaver. Arrived within 10 minutes at around 10:45pm and had my door open in about 5 minutes. Quick, professional, and stress-free service with reasonable price. Highly recommend!"
-    },
-    {
-      "name": "Erin Echo.",
-      "role": "Retail Store Manager",
-      "quote": "So thankful for the super quick (under 1 hr), super friendly, incredibly determined technician who got me back into my flat after I locked my keys inside. It wasn’t easy AT ALL but he did everything to avoid damage (and succeeded! ), and it perfectly priced for an emergency call out - such a relief after being both ripped off & needing a new lock the last time this happened (yes, I am the problem, it’s me). WOULD USE AGAIN (and probs will need to!!!)"
-    },
-    {
-      "name": "Stephen Livingstone.",
-      "role": "Local Resident",
-      "quote": "The locksmith arrived on time, was friendly, and explained what he was doing throughout the process. He managed to open the door without causing any damage, which I really appreciated. The service was professional, efficient, and reasonably priced. I’d definitely recommend him to anyone who needs a reliable locksmith!"
-    },
-    {
-      "name": "Jon Heffernan.",
-      "role": "Homeowner",
-      "quote": "Excellent service! We had an out-of-hours emergency, and the locksmith responded quickly and professionally. The repair was carried out to a high standard at a very fair price. Reliable, friendly, and great value – I’d definitely recommend and use again."
-    },
-    {
-      "name": "Lucy Levens",
-      "role": "Business Owner",
-      "quote": "Was a really quick and helpful service in a bank holiday. Really appreciate your help and would definitely recommend. Reasonable price too especially compared to others."
-    },
-    {
-      "name": "Kauser Ali",
-      "role": "Homeowner",
-      "quote": "Brilliant service — arrived really quickly and had us back into our business in no time. Professional, friendly, and very reasonably priced. Couldn’t recommend more highly!"
-    }
-  ],
-  "_backupServices": [
     {
       "id": "upvc-doors",
       "tag": "Specialist",
@@ -137,29 +162,6 @@
       "summary": "Replacement of broken gearboxes and full multipoint locking strips for UPVC doors.",
       "htmlContent": "<h2>Multipoint Lock & Gearbox Replacement</h2><p>The multipoint lock is the long strip of metal running down the edge of your UPVC or composite door that features multiple hooks and bolts.</p><p>When this complex mechanism breaks down, the door handle will often spin freely, or you will be unable to lift the handle to engage the locks.</p><h3>Cost-Effective Gearbox Replacements</h3><p>Often, you don't need to replace the entire strip. Our specialists can identify the specific failing center case (the gearbox) and replace just that part.</p><p>We stock dozens of different mechanisms from leading brands like Yale, ERA, Maco, GU, and Winkhaus, ensuring we can fix the issue in a single visit.</p><h3>Non-Destructive Door Opening</h3><p>If your multipoint lock has failed while the door is closed and locked, do not panic and do not force the handle.</p><p>We use specialized spreaders and bypass tools to open the door safely without damaging the UPVC frame or the door itself.</p>",
       "iconName": "ShieldCheck"
-    }
-  ],
-  "blogPosts": [
-    {
-      "id": "how-to-prevent-lock-snapping",
-      "title": "How to Prevent Lock Snapping: Protect Your UPVC Doors",
-      "excerpt": "Lock snapping is the most common method burglars use to break into homes with UPVC doors. Here is how you can stop them in their tracks.",
-      "publishedAt": "2024-03-12",
-      "htmlContent": "<p>If your home features UPVC or composite doors, there is a good chance you rely on a Euro Cylinder lock for your security. While these locks are extremely common and convenient, standard variations harbor a critical weakness: they are incredibly vulnerable to a technique known as \"lock snapping.\"</p><h3>What is Lock Snapping?</h3><p>Lock snapping requires no specialist tools, no heavy machinery, and no advanced lock-picking skills. By using simple physical force on the protruding part of a standard cylinder, an intruder can snap the lock in half and manipulate the internal mechanism to open the door. Shockingly, this can be done in under 15 seconds, making it the preferred entry method for opportunistic burglars.</p><h3>The Warning Signs</h3><p>Your property is at high risk if:</p><ul><li>Your lock cylinder protrudes outward from the door handle by more than 3mm.</li><li>You have standard unbranded cylinders installed by a property developer over 10 years ago.</li><li>There is no \"Kitemark\" or \"3-Star\" logo engraved onto the face of the lock where you insert the key.</li></ul><h3>How to Protect Your Home</h3><p>The solution is straightforward and relatively inexpensive compared to the massive cost of a break-in: <strong>Upgrade to Anti-Snap Locks.</strong></p><p>Anti-snap locks (specifically those rated TS007 3-Star or SS312 Diamond) are engineered with reinforced steel pins, anti-drill plates, and sacrificial snap lines. If an intruder attempts to snap the lock, the front portion breaks away intentionally, leaving the core mechanism intact, locked, and entirely inaccessible from the outside.</p><p>Don't wait until you become a victim. Check out our <a href=\"../services/lock-replacement\" class=\"text-[--brand-orange] hover:underline\">Lock Upgrade service</a> to secure your UPVC doors today.</p>"
-    },
-    {
-      "id": "what-to-do-when-you-lose-your-car-keys",
-      "title": "What To Do When You Lose Your Car Keys",
-      "excerpt": "Losing your vehicle keys is a panic-inducing moment. Follow these practical steps to regain access without paying exorbitant dealership prices.",
-      "publishedAt": "2024-04-05",
-      "htmlContent": "<p>We've all been there: you reach into your pocket or bag to grab your car keys, and they simply aren't there. After the frantic retracing of steps, the reality sets in. You've lost your car keys. But before you call an expensive dealership and arrange a tow truck, take a deep breath.</p><h3>Step 1: Check Your Insurance and Breakdown Cover</h3><p>First, verify if your standard car insurance policy or your roadside breakdown cover involves \"key cover.\" Many modern policies include reimbursement provisions if you need an auto locksmith to cut you a new key. Do not break a window—this will cost you massively in repairs and is entirely unnecessary.</p><h3>Step 2: Gather Your Vehicle Information</h3><p>When you contact a professional, you need to provide specific information so they can guarantee they have the correct diagnostic equipment and blank transponders. Have the following ready:</p><ul><li>The Make, Model, and Year of the vehicle</li><li>The Vehicle Registration Number (License Plate)</li><li>The Vehicle Identification Number (VIN) – usually visible on the dashboard through the windshield</li><li>Proof of ownership (V5C logbook or insurance documents)</li></ul><h3>Step 3: Call an Auto Locksmith, Not the Main Dealer</h3><p>If you call a main dealership, you will inevitably have to pay to get the car towed to their garage. Furthermore, you will often wait days or even weeks for replacement keys to be shipped from a manufacturer warehouse in Europe.</p><p>A professional <a href=\"../services/auto-locksmith\" class=\"text-[--brand-orange] hover:underline\">Auto Locksmith</a> operates from a mobile workshop. We drive to your location, pick the door locks damage-free, decode the mechanical cuts, provide a new physical key, and program the complex transponder directly to your vehicle's ECU on the roadside. The process usually takes less than an hour, and old, lost keys can be completely erased from the vehicle's memory so they can never be used to steal your car.</p>"
-    },
-    {
-      "id": "spring-security-checklist",
-      "title": "The Ultimate Home Security Checklist for Spring",
-      "excerpt": "As the weather warms up and we spend more time outside, ensure your home is fully secured with this quick checklist.",
-      "publishedAt": "2024-04-20",
-      "htmlContent": "<p>With longer days and warmer weather on the horizon, we naturally spend more hours away from the home—whether vacationing, socializing, or just spending an afternoon out back in the garden. Unfortunately, the spring and summer months traditionally see an uptick in opportunistic burglaries. Use this professional checklist to evaluate your home's defenses.</p><h3>1. Check Window Locks and Restrictors</h3><p>We love throwing the windows open to let fresh air in, but it's dangerously easy to leave ground-floor windows open when you walk out to the store. Ensure that all window handles turn smoothly, fully engage, and lock with a key. Furthermore, consider installing window restrictors on ground-floor openings so you can safely ventilate rooms without leaving a gap large enough for an intruder.</p><h3>2. Inspect Outbuilding & Shed Security</h3><p>Your shed or detached garage often houses thousands of pounds worth of power tools, bicycles, and gardening equipment. Shockingly, they are usually secured with a simple £5 padlock. Upgrade to hardened steel, closed-shackle padlocks combined with heavy-duty hasps that conceal the mounting screws. Additionally, consider locking high-value items to internal floor anchors.</p><h3>3. The Garden Gate</h3><p>Ensure your side gates and rear access panels have stout, well-maintained bolts on the top and bottom. Burglars prefer entering through the back of a property where they cannot be seen from the street, so a tall, locked fence is an excellent deterrent.</p><h3>4. Service UPVC Door Mechanisms</h3><p>Changes in temperature and humidity can cause UPVC doors to expand and contract, throwing the multi-point locking mechanisms out of alignment. If you have to lift the handle with excessive force or push hard against the door to lock it, the gearbox is under extreme stress and will inevitably snap. Have a <a href=\"../services/upvc-doors\" class=\"text-[--brand-orange] hover:underline\">professional UPVC specialist</a> re-align the door now before you are locked out permanently!</p>"
     }
   ]
 }

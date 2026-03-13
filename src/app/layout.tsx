@@ -6,24 +6,24 @@ import config from '@/data/config.json';
 const figtree = Figtree({ subsets: ['latin'], variable: '--font-sans' });
 
 export const metadata: Metadata = {
-  metadataBase: new URL(config.url || 'https://btn-locksmith-brighton.co.uk'),
+  metadataBase: new URL(config.url || 'https://ejml.co.uk'),
   title: {
-    default: `${config.businessName} | Expert Locksmith in ${config.location}`,
+    default: `${config.businessName} | Expert Auto Locksmith in ${config.location}`,
     template: `%s | ${config.businessName}`,
   },
-  description: `${config.businessName} provides 24/7 emergency locksmith services, lock replacements, UPVC repairs, and security solutions in ${config.location}. Fast response, no call-out fee.`,
+  description: `${config.businessName} provides 24/7 emergency auto locksmith services, transponder key programming, module coding, and key remapping in ${config.location}. Fast response, safely back on the road.`,
   keywords: [
-    `Locksmith ${config.location}`,
-    'Emergency Locksmith',
-    'UPVC Repairs',
-    'Lock Replacement',
     `Auto Locksmith ${config.location}`,
-    '24/7 Locksmith',
+    `Car Key Replacement ${config.location}`,
+    'Emergency Auto Locksmith',
+    'Module Coding',
+    'Key Remapping',
+    'Vehicle Entry',
   ],
   openGraph: {
-    title: `${config.businessName} | Expert Locksmith in ${config.location}`,
-    description: `Professional 24/7 locksmith services in ${config.location}. UPVC repairs, lock replacements, and emergency entry.`,
-    url: config.url || 'https://btn-locksmith-brighton.co.uk',
+    title: `${config.businessName} | Expert Auto Locksmith in ${config.location}`,
+    description: `Professional 24/7 auto locksmith services in ${config.location}. Car key replacement, module coding, and key remapping.`,
+    url: config.url || 'https://ejml.co.uk',
     siteName: config.businessName,
     images: [
       {
@@ -38,8 +38,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: `${config.businessName} | Expert Locksmith in ${config.location}`,
-    description: `Professional 24/7 locksmith services in ${config.location}. UPVC repairs, lock replacements, and emergency entry.`,
+    title: `${config.businessName} | Expert Auto Locksmith in ${config.location}`,
+    description: `Professional 24/7 auto locksmith services in ${config.location}. Car key replacement, module coding, and key remapping.`,
     images: ['/logo.png'],
   },
   robots: {
