@@ -130,7 +130,7 @@ export function BaseShell({ children }: BaseShellProps) {
                   <div className='w-10 h-10 rounded-full bg-white/5 flex items-center justify-center shrink-0 border border-gray-800'>
                     <MapPin className='w-4 h-4 text-(--brand-orange)' />
                   </div>
-                  <div>
+                  <div className="hidden">
                     <h5 className='text-white font-bold mb-2 tracking-wide'>Service Area</h5>
                     <div className='flex flex-col gap-0.5'>
                       {address
