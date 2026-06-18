@@ -280,57 +280,141 @@ export const hubs: HubService[] = [
 
 export const localReviews: LocalReview[] = [
   {
-    name: 'Sean Brain',
-    role: 'Driver in Cardiff',
-    quote: 'Fantastic service. Called on a Saturday at 8:30am and Ed arrived within the hour. Had my keys out of the car in under 10 minutes. Friendly, quick, and far cheaper than the other quotes I had. Highly recommended. Many thanks!',
-    location: 'Cardiff',
+    name: "Rewired Life",
+    role: "Local Guide",
+    quote: "I had the fortune of Ed coming to the rescue yesterday. Our vehicle battery had died, RAC couldn’t fix it as the immobiliser had completely wiped the keys. Within 15 - 20 minutes, Ed had diagnosed the faults, reprogrammed the keys and got the car started.",
+    location: "Bargoed"
   },
   {
-    name: 'James Davies',
-    role: 'Driver in Cardiff',
-    quote: 'What a fantastic service. Called out after someone attempted to steal my car. Arrived within 30 minutes and was able to restore my keys to the car so that I could move it and secure the car. Very professional and amazing service would highly recommend.',
-    location: 'Cardiff',
+    name: "Kathryn Davids",
+    role: "Local Guide",
+    quote: "Ed came out to help me after I'd lost my van keys. Noone else was answering at that point on a Saturday Evening, not even the RAC called me back. It wasn't as straightforward a job as it should have been programming the new key, but his problem solving and humour won through! Thank you!!",
+    location: "Cardiff"
   },
   {
-    name: 'Amy P',
-    role: 'Cardiff Business Owner',
-    quote: 'Brilliant service from Ed. He diverted from going home at the end of his day to help us when we were stuck. Two recovery services tried and failed but Ed was able to get us moving again. I would 100% recommend Ed, his prices are very reasonable!',
-    location: 'Cardiff',
+    name: "Sean Brain",
+    role: "Driver in Cardiff",
+    quote: "Fantastic service. Called on a Saturday at 8:30am and ed arrived within the hour. Had my keys out of the car in under 10 minutes. Friendly, quick, and far cheaper than the other quotes I had. Highly recommended. Many thanks",
+    location: "Cardiff"
   },
   {
-    name: 'Gareth Thomas',
-    role: 'Trade Professional',
-    quote: 'Called Ed for van deadlock installation in Bargoed. He arrived right on time, did a very clean job on the doors, and the locks feel incredibly secure. Top-tier service for local tradesmen!',
-    location: 'Bargoed',
+    name: "Ewan Blunt",
+    role: "Vehicle Owner",
+    quote: "quality service, got the job done straight away for a good price. Definitely Recommend.",
+    location: "Cardiff"
   },
   {
-    name: 'David Jenkins',
-    role: 'Vehicle Owner in Newport',
-    quote: 'Locked my keys in the boot of my BMW. Ed was in Newport and came out in 20 minutes. Opened the car completely damage-free with a Lishi pick. Excellent price, fast response. Highly recommended!',
-    location: 'Newport',
+    name: "James Davies",
+    role: "Driver in Cardiff",
+    quote: "What a fantastic service . Called out after someone attempted to steel my car. Arrived within 30 minutes and was able to restore my keys to the car so that I could Move it and secure the car. Very professional and amazing service would highly recommend.",
+    location: "Cardiff"
   },
   {
-    name: 'Sarah Lewis',
-    role: 'Driver in Barry',
-    quote: 'Lost my car keys in Barry. Ed cut and programmed a brand-new transponder remote key on my driveway. Saved me a fortune compared to dealership quotes. Genuine, fast, and helpful.',
-    location: 'Barry',
+    name: "Benjamin O'Neill",
+    role: "Verified Customer",
+    quote: "Very knowledgeable guys helped us out with several jobs highly recommended 👌",
+    location: "Cardiff"
   },
   {
-    name: 'Mark Owens',
-    role: 'Van Fleet Manager in Bridgend',
-    quote: 'Had a van that needed new lock cylinders and ECU module cloning after water damage. Ed sorted it all out on-site in Bridgend. Incredible tech skills and highly professional auto locksmith.',
-    location: 'Bridgend',
+    name: "amy p",
+    role: "Cardiff Customer",
+    quote: "Brilliant service from Ed. He diverted from going home at the end of his day to help us when we were stuck, 2 recovery services tried and failed but Ed was able to get us moving again. I would 100% recommend Ed, his prices are very reasonable! Thank you again Ed!!",
+    location: "Cardiff"
   },
   {
-    name: 'Rhys Davies',
-    role: 'Resident in Pontypridd',
-    quote: 'Fast and reliable 24/7 service. Ed helped us rekey our locks after losing a set of keys in Pontypridd. Very tidy and professional.',
-    location: 'Pontypridd',
+    name: "Paul Chapman",
+    role: "Local Resident",
+    quote: "Never used Ed before and wanted to spend my money locally so gave him a call. My van key was getting stuck in the ignition or not going in at all so we expecting an expensive barrel and key change but was told it was just a worn blade. Cut a new one on the spot and works a treat so all in all very pleased and would recommend.",
+    location: "Bargoed"
   },
   {
-    name: 'Chloe Evans',
-    role: 'Vehicle Owner in Caerphilly',
-    quote: 'Excellent Pandora alarm installation. Ed took the time to show me how the app and Bluetooth tags work. Feel much safer parking my car in Caerphilly now!',
-    location: 'Caerphilly',
+    name: "Simon Williams",
+    role: "Car Owner",
+    quote: "Fantastic! Locked my keys (including house keys) in my car and called the first car locksmith that came up on google. After a 4.5 hour wait, they finally called me to say they weren’t coming. I called some more and one recommended Ed. He arrived quickly and opened it in no time.",
+    location: "Newport"
   },
+  {
+    name: "Kerry Jones",
+    role: "Driver in Cardiff",
+    quote: "Absolutely amazing service from Ed he came out and sorted my issue out without any hesitation would highly recommend as nothing was too much trouble and now he's got my car back to how it should be and I will definitely be returning in the near future you are definitely a life saver thank you so much",
+    location: "Cardiff"
+  },
+  {
+    name: "Wayne Lewis",
+    role: "Stranded Driver",
+    quote: "Managed to lock my keys in my car and strand myself 10 miles from home and late at night. Other 24 hour locksmiths rejected my call. Ed answered and was with me in 45 minutes. 15 minutes later I was back in my car. Highly recommend.",
+    location: "Newport"
+  },
+  {
+    name: "Aaron Jones",
+    role: "Van Owner",
+    quote: "Ed sorted me out after someone else didn't show up. He reprogrammed two existing keys and the new VIN after an ECU failure at the roadside. Thank you very much!",
+    location: "Cardiff"
+  },
+  {
+    name: "Clive Brown",
+    role: "Local Guide in Bargoed",
+    quote: "I would never go to anyone else best locksmith out there. Saved my life on more than 1 occasion .Save time messing about go to the best and most reliable out there. Now sorted out a spare key for my Skoda aswell . The best cheers mate 👍 👌",
+    location: "Bargoed"
+  },
+  {
+    name: "Neil",
+    role: "Verified Customer",
+    quote: "Ed thank you very much for your service second to none u very polite and good at your job, turned up on time and got the job done to a high standard. people out there if u looking for a new key get in touch with him one of the best about thanks again Ed",
+    location: "Cardiff"
+  },
+  {
+    name: "Mal Rees",
+    role: "Local Guide in Newport",
+    quote: "Good quality service rang an 10 am was with me in just over an hour did a cracking job programmed my car keys with ease thank you very much will definitely be my first port of call highly recommended",
+    location: "Newport"
+  },
+  {
+    name: "marcel bradbeer",
+    role: "Car Owner in Newport",
+    quote: "Highly recommended. Done a great job in unlocking the car and reproducing a key for my daughter after she lost hers. Thank you!",
+    location: "Newport"
+  },
+  {
+    name: "Jake Goldsworthy",
+    role: "Verified Client in Barry",
+    quote: "Had a key cut by Ed earlier, was very helpful, quick, reliable guy. 10/10",
+    location: "Barry"
+  },
+  {
+    name: "Liam Tiddy",
+    role: "Van Owner in Barry",
+    quote: "Awesome guy. came within 30 minutes of calling. did the job professionally. and at a very good price, couldn't ask for more. 10/10.",
+    location: "Barry"
+  },
+  {
+    name: "Andrea",
+    role: "Car Owner in Bridgend",
+    quote: "Ed is fantastic, a lovely guy and was extremely helpful, I wouldn't hesitate to call him again 5*",
+    location: "Bridgend"
+  },
+  {
+    name: "Ben Smith",
+    role: "Local Customer in Bridgend",
+    quote: "I had phoned ed Jones after I locked my only key in the car he had the right pick to do the job he come and done it with in a matter of minutes and the price that he charged was brilliant I can not fault it very happy customer and I would highly recommend thank you",
+    location: "Bridgend"
+  },
+  {
+    name: "Craig Davies",
+    role: "Verified Customer in Pontypridd",
+    quote: "Brilliant service! Great to see a man that loves his job!!!",
+    location: "Pontypridd"
+  },
+  {
+    name: "Brandon Evans",
+    role: "Van Driver in Pontypridd",
+    quote: "Sorted me right out. There in No more than 20 minutes and was back in my van in 5",
+    location: "Pontypridd"
+  },
+  {
+    name: "Hayley Wallen",
+    role: "Driver in Newport",
+    quote: "My teenage son locked my 10 month old along with the car keys in the car earlier this morning. After a panicked phone call to ed he came to our rescue promptly and got us in the car within minutes. Highly recommended.",
+    location: "Newport"
+  }
 ];
