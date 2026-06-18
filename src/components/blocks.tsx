@@ -79,7 +79,7 @@ export function DemoHome() {
           <div className='flex-1 relative group'>
             <div className='absolute -inset-4 bg-(--brand-orange)/10 rounded-3xl -z-10 group-hover:bg-(--brand-orange)/20 transition-all ease-in-out duration-500' />
             <Image
-              src='https://allprolocksmiths.com.au/wp-content/uploads/2023/12/A-Reliable-Auto-Locksmith.jpg'
+              src='/auto-locksmith.jpeg'
               alt='Professional Lock Repair and Installation in Cardiff'
               height={800}
               width={800}
@@ -326,7 +326,7 @@ export function DemoHome() {
             <div className='relative'>
               <div className='absolute -inset-4 bg-(--dark-bg) rounded-3xl -z-10 transform rotate-3' />
               <Image
-                src='https://www.banham.co.uk/media/catalog/category/locksmith_scams_header.jpg'
+                src='/locksmith-entering-vehicle.jpeg'
                 alt='Trusted Locksmith in Cardiff'
                 height={600}
                 width={600}
