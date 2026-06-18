@@ -24,3 +24,37 @@ export interface BlogPost {
   excerpt?: string;
   htmlContent?: string;
 }
+
+export interface GmbMicroService {
+  name: string;
+  price?: string;
+  description: string;
+}
+
+export interface HubService {
+  slug: string;
+  title: string;
+  shortSummary: string;
+  metaDescription: string;
+  microServices: GmbMicroService[];
+  richBaseContent: string; // Contains placeholders like {location} and {postcode}
+  iconName?: string;
+}
+
+export interface LocationData {
+  slug: string;
+  name: string;
+  postcode?: string;
+  lat: number;
+  lng: number;
+  keyRoute: string;
+  parentLocation?: string;
+}
+
+export interface LocalReview {
+  name: string;
+  role: string;
+  quote: string;
+  location: string;
+}
+

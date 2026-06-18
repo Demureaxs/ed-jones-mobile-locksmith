@@ -252,18 +252,18 @@ export function DemoHome() {
           {/* Regular service cards */}
           {[
             {
-              id: 'module-coding',
-              tag: 'Programming',
-              title: 'Module Coding & Cloning',
-              desc: 'Advanced auto vehicle module coding, ECU programming, and unit cloning services.',
-              icon: Cpu,
+              id: 'auto-locksmith',
+              tag: 'Auto',
+              title: 'Auto Locksmith Services',
+              desc: 'On-site car key cloning, transponder coding, and lock entry solutions.',
+              icon: Car,
             },
             {
-              id: 'remapping',
+              id: 'ecu-programming',
               tag: 'Programming',
-              title: 'Vehicle Key Remapping',
-              desc: 'Professional key remapping and programming for improved vehicle security.',
-              icon: Gauge,
+              title: 'ECU Coding & Cloning',
+              desc: 'Specialist engine control unit coding and software cloning at your location.',
+              icon: Cpu,
             },
           ].map((srv, idx) => (
             <Link
